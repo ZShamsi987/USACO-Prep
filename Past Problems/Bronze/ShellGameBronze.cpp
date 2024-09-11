@@ -15,7 +15,7 @@ use of swap, this swapped the position of the rock from the original vector
 
 IMPORTANT:
 counter:
-what this did 
+what this did was count when she guessed the position and added it in a vector, then it found the maximum and this was output
 
 
 
