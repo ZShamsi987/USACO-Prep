@@ -1,4 +1,10 @@
 //only passed 1 test case!! :( not sure rn will check
+//UPDATED
+/*
+-understood the problem wrong, line 2 isnt just the position but shuffle order
+-reverse shuffle order 3 times
+-track in vector and previous variable checking
+*/
 
 #include <algorithm>
 #include <cstdio>
