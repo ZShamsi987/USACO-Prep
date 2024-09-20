@@ -1,37 +1,25 @@
-#include <algorithm>
-#include <cstdio>
-#include <cstdlib>
-#include <iostream>
-#include <string>
-#include <vector>
+/*
+i was oding, just use for loops and go through it, lowk getting onfused on the loops lock in
+*/
 
+#include <iostream>
+#include <algorithm>
 using namespace std;
 
-int main(){
-    int x, y, m;
-    scanf("%d %d %d", &x, &y, &m);
+int main() {
+    int X, Y, M;
+    cin >> X >> Y >> M;
 
-    vector<int>maximo;
+    int maxmilko = 0;
 
-    int currm;
+    
+    for (int i = 0; i * X <= M; i++) {
+        int remaining = M - i * X;
+        
+        int maxy = (remaining / Y) * Y;
 
-    do{
-        currm+=x;
-
-    }while(currm<m);
-
-    if(currm+y<=m){
-        do{
-
-        currm+=y;
-
-        }while(currm<m);
-    }
-    else if(currm+y>=m){
-        maximo.push_back(currm);
-        currm=0;
+        maxmilko = max(maxmilko, i * X + maxy);
     }
 
-    cout<<*max_element(maximo.begin(), maximo.end());
-
+    cout << maxmilko << endl;
 }
