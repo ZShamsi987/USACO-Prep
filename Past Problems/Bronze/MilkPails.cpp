@@ -1,5 +1,6 @@
 /*
 i was oding, just use for loops and go through it, lowk getting onfused on the loops lock in
+10/10
 */
 
 #include <iostream>
@@ -7,6 +8,9 @@ i was oding, just use for loops and go through it, lowk getting onfused on the l
 using namespace std;
 
 int main() {
+    freopen("pails.in", "r", stdin);
+    freopen("pails.out", "w", stdout);  
+
     int X, Y, M;
     cin >> X >> Y >> M;
 
