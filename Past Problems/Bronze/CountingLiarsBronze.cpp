@@ -1,10 +1,6 @@
 /*
 i tried, it didnt really work. quit 54 mins in, just trying to get through more probs
 
-
-
-
-
 */
 
 #include <iostream>
