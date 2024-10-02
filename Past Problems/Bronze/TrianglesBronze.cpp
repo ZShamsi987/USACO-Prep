@@ -6,7 +6,7 @@ problem was this always checks for the x distance in relation to the first point
 this assumes the second point is in line with first horizontally, not right
 gotta make it based on parallelness i think, not sure how to change rn
 
-not getting any probs right kinda sad will look at parallel tomorow
+not getting any probs right kinda sad will look at parallel soon
 
 
 
